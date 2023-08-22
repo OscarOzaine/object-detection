@@ -38,7 +38,7 @@ def main():
     train_yolo(
         name=model_name,
         epochs=epochs,
-        project='models',  
+        project='trained_models',  
         #evolve=10,
         weights=model, 
         device=device
